@@ -146,6 +146,28 @@
     border-radius: 1rem;
 }
 
+.content .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    row-gap: 0.5rem;
+  }
+  
+  .content .footer a {
+    color: #000;
+    text-decoration: none;
+    line-height: 1.2rem;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .content .footer a img {
+    height: 1.2rem;
+    margin-right: .5rem;
+  }
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
